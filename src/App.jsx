@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -8,8 +6,11 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className='container-div'>
         <h3>Welcome to the QR code generator by Mohammed</h3>
+        Url: <input className='input-element' type='text'></input>
+        <br />
+        <button className='generate-button'>Generate QR Code</button>
       </div>
     </>
   )
